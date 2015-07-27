@@ -38,9 +38,10 @@
         <dependency>
             <groupId>org.apache.ignite</groupId>
             <artifactId>ignite-core</artifactId>
-            <version>1.0.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/ext_libs/ignite-core.jar</systemPath>
+            <version>${ignite.version}</version>
+            <!--<version>1.0.0</version>-->
+            <!--<scope>system</scope>-->
+            <!--<systemPath>${project.basedir}/ext_libs/ignite-core.jar</systemPath>-->
         </dependency>
 
         <dependency>
