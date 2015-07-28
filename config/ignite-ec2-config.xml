@@ -45,17 +45,17 @@
                     </bean>
                 </property>
 
-                <!--<property name="socketTimeout" value="200"/>-->
-                <!--<property name="networkTimeout" value="5000"/>-->
-                <!--<property name="ackTimeout" value="50"/>-->
-                <!--<property name="heartbeatFrequency" value="100"/>-->
-                <!--<property name="maxMissedHeartbeats" value="1" />-->
+                <property name="socketTimeout" value="200"/>
+                <property name="networkTimeout" value="5000"/>
+                <property name="ackTimeout" value="50"/>
+                <property name="heartbeatFrequency" value="100"/>
+                <property name="maxMissedHeartbeats" value="1" />
 
             </bean>
         </property>
 
 
-        <property name="failureDetectionTimeout" value="300"/>
+        <!--<property name="failureDetectionTimeout" value="300"/>-->
 
     </bean>
 </beans>
