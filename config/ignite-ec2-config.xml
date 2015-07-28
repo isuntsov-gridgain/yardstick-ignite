@@ -55,7 +55,7 @@
         </property>
 
 
-        <property name="failureDetectionTimeout" value="400"/>
+        <property name="failureDetectionTimeout" value="250"/>
 
     </bean>
 </beans>
